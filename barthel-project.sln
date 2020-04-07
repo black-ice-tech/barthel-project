@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B47F90A-CC93-4550-9EF2-59CF925241F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barthel.Project.Cli", "src\Barthel.Project.Cli\Barthel.Project.Cli.csproj", "{311AFE76-210A-453B-81A3-00F332775245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +18,22 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311AFE76-210A-453B-81A3-00F332775245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Debug|x64.Build.0 = Debug|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Debug|x86.Build.0 = Debug|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Release|x64.ActiveCfg = Release|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Release|x64.Build.0 = Release|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Release|x86.ActiveCfg = Release|Any CPU
+		{311AFE76-210A-453B-81A3-00F332775245}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{311AFE76-210A-453B-81A3-00F332775245} = {2B47F90A-CC93-4550-9EF2-59CF925241F5}
 	EndGlobalSection
 EndGlobal
