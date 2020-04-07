@@ -7,6 +7,7 @@ namespace Barthel.Project.Cli
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Zack!");
+            Console.WriteLine("It's Andrew! Your bestie!");
         }
     }
 }
