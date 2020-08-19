@@ -1,0 +1,3 @@
+﻿Name|Description|Rating|Length
+Exploding Kittens|Crazy game of luck.|****|10m
+Candy Land|I'm getting tired of coming up with descriptions.|*|22m
